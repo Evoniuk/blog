@@ -1,36 +1,38 @@
+$background: black;
+$main: rgb(235, 235, 235);
+$accent: aquamarine;
+
 @font-face {
   font-family: 'VCR';
-  src: url("./VCR_OSD_MONO_1.001.ttf");
+  src: url('./VCR_OSD_MONO_1.001.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 html {
-  background-color: black;
+  background-color: $background;
   background-image: url("./images/tile4.png");
   background-attachment: fixed;
 }
 
 body {
   font-family: 'VCR', monospace;
-  color: #ebebeb;
+  color: $main;
   max-width: 32rem;
   margin: auto;
   line-height: 1.2;
 }
 
-#title {
-  text-align: center;
-}
+#title {text-align: center}
 
 #title a {
   text-decoration: none;
-  color: #ebebeb;
+  color: $main;
 }
 
 a, .link {
   text-decoration: underline;
-  color: aquamarine;
+  color: $accent;
   cursor: pointer;
 }
 
@@ -38,26 +40,18 @@ a, .link {
   padding-left: 1rem;
 }
 
-a:hover, .link:hover {
-  font-style: italic;
-}
+a:hover, .link:hover {font-style: italic}
 
-h2 {
-  border-bottom: 2px solid #ebebeb;
-}
+h2 {border-bottom: 2px solid $main}
 
 h3 {
-  border-left: 5px solid aquamarine;
+  border-left: 5px solid $accent;
   padding-left: 10px;
 }
 
-ul {
-  list-style: square;
-}
+ul {list-style: square}
 
-header {
-  text-align: right;
-}
+header {text-align: right}
 
 #song {
   margin: 1rem;
@@ -68,13 +62,13 @@ audio {
 }
 
 blockquote {
-  border-left: 4px solid aquamarine;
+  border-left: 4px solid $accent;
   padding-left: 4px;
 }
 
 aside {
   font-size: smaller;
-  color: aquamarine;
+  color: $accent;
   text-align: right;
 }
 
@@ -84,11 +78,10 @@ aside::before {
 
 hr {
   border: none;
-  border-top: 2px solid #ebebeb;
+  border-top: 2px solid $main;
 }
 
 img {
   width: 100%;
-  border: 2px solid aquamarine;
+  border: 2px solid $accent;
 }
-/*# sourceMappingURL=index.css.map */
