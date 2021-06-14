@@ -5,6 +5,7 @@ import Cello from      './posts/Cello'
 import Heather from    './posts/Heather'
 import Algorithms from './posts/Algorithms'
 import Choplifter from './posts/Choplifter'
+import Games from      './posts/Games'
 
 export default function Blog(props) {
   const posts = [
@@ -14,6 +15,7 @@ export default function Blog(props) {
     'heather',
     "'what algorithms want' is a bad book",
     "don't trust everything you read",
+    "are games art?",
   ];
 
   const dates = [
@@ -23,6 +25,7 @@ export default function Blog(props) {
     '2019 08 11',
     '2020 09 06',
     '2021 02 13',
+    "2021 06 ??",
   ];
 
   const makeTitle = number => <li>
@@ -51,6 +54,7 @@ export default function Blog(props) {
     props.currentPost === posts[3] ? <Heather /> :
     props.currentPost === posts[4] ? <Algorithms /> :
     props.currentPost === posts[5] ? <Choplifter /> :
+    props.currentPost === posts[6] ? <Games /> :
     blogHome
     )
 }
