@@ -9,6 +9,7 @@ export default function About() {
     <ul>
       <li>color: <span style={{color:'red'}}>red</span>!</li>
       <li>food: burgers</li>
+      <li>fruit: raspberry</li>
       <li>number: 196</li>
       <li>song: <a href="https://www.youtube.com/watch?t=1735&v=0P0lOf1FifE" target="blank">Surf City - Anri</a></li>
       <li>artist: Anri</li>

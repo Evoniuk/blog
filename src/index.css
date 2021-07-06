@@ -91,4 +91,13 @@ img {
   width: 100%;
   border: 2px solid aquamarine;
 }
+
+pre {
+  background-color: black;
+  border-top: 2px solid aquamarine;
+  border-bottom: 2px solid aquamarine;
+  padding: 5px 0;
+  font-family: monospace;
+  font-size: 14px;
+}
 /*# sourceMappingURL=index.css.map */

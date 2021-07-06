@@ -6,6 +6,7 @@ import Heather from    './posts/Heather'
 import Algorithms from './posts/Algorithms'
 import Choplifter from './posts/Choplifter'
 import Games from      './posts/Games'
+import Quine from      './posts/Quine'
 
 export default function Blog(props) {
   const posts = [
@@ -16,6 +17,7 @@ export default function Blog(props) {
     "'what algorithms want' is a bad book",
     "don't trust everything you read",
     "are games art?",
+    "the shortest quine in C"
   ];
 
   const dates = [
@@ -25,7 +27,8 @@ export default function Blog(props) {
     '2019 08 11',
     '2020 09 06',
     '2021 02 13',
-    "2021 06 ??",
+    '2021 06 13',
+    '2021 07 05'
   ];
 
   const makeTitle = number => <li>
@@ -48,13 +51,14 @@ export default function Blog(props) {
   </div>;
 
   return (
-    props.currentPost === posts[0] ? <Moby />:
-    props.currentPost === posts[1] ? <Serfdom /> :
-    props.currentPost === posts[2] ? <Cello /> :
-    props.currentPost === posts[3] ? <Heather /> :
+    props.currentPost === posts[0] ? <Moby />       :
+    props.currentPost === posts[1] ? <Serfdom />    :
+    props.currentPost === posts[2] ? <Cello />      :
+    props.currentPost === posts[3] ? <Heather />    :
     props.currentPost === posts[4] ? <Algorithms /> :
     props.currentPost === posts[5] ? <Choplifter /> :
-    props.currentPost === posts[6] ? <Games /> :
+    props.currentPost === posts[6] ? <Games />      :
+    props.currentPost === posts[7] ? <Quine />      :
     blogHome
     )
 }

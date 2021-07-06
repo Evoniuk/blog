@@ -85,3 +85,12 @@ img {
   width: 100%;
   border: 2px solid $accent;
 }
+
+pre {
+  background-color: $background;
+  border-top: 2px solid $accent;
+  border-bottom: 2px solid $accent;
+  padding: 5px 0;
+  font-family: monospace;
+  font-size: 14px;
+}
