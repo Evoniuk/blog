@@ -40,7 +40,7 @@ export default function About() {
       <li>programming</li>
       <li>languages</li>
       <li>math</li>
-      <li>the 80s and 90s</li>
+      <li>the 70s and 80s</li>
       <li>games</li>
     </ul>
   </div>
