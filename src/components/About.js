@@ -11,7 +11,7 @@ export default function About() {
       <li>food: burgers</li>
       <li>fruit: raspberry</li>
       <li>number: 196</li>
-      <li>song: <a href="https://www.youtube.com/watch?t=1735&v=0P0lOf1FifE" target="blank">Surf City - Anri</a></li>
+      <li>song: <a href="https://youtu.be/aSnmeUmPlIs?t=1736" target="blank">Surf City - Anri</a></li>
       <li>artist: Anri</li>
       <li>composer: Purcell</li>
       <li>movie: Fiddler on the Roof</li>
