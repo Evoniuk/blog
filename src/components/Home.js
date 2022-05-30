@@ -2,7 +2,7 @@ import SonyaPic from '../images/Sonya.jpeg'
 
 export default function Home() {
   return <div>
-      <h2>Welcome!</h2>
+      <h2>WELCOME!</h2>
 
       <p>Hi! This is my personal site. I love the idea of the personal site that was big in the early days of the internet, where you got to see so many unique designs and totally meaningless but endlessly interesting tidbits about people all over the world, so I thought I'd make one myself!</p>
 

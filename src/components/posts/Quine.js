@@ -1,5 +1,7 @@
 export default function Quine() {
   return <div>
+    <h2>The shortest quine in C</h2>
+
     <p>If you google what the shortest quine in C is you would probably get this:</p>
 
     <pre>{`main(s){printf(s="main(s){printf(s=%c%s%1$c,34,s);}",34,s);}`}</pre>

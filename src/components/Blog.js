@@ -1,23 +1,23 @@
-// import Pokemon from './posts/Pokemon'
-import Moby from       './posts/Moby'
-import Serfdom from    './posts/Serfdom'
-import Cello from      './posts/Cello'
-import Heather from    './posts/Heather'
+// import Pokemon    from './posts/Pokemon'
+import Moby       from './posts/Moby'
+import Serfdom    from './posts/Serfdom'
+import Cello      from './posts/Cello'
+import Heather    from './posts/Heather'
 import Algorithms from './posts/Algorithms'
 import Choplifter from './posts/Choplifter'
-import Games from      './posts/Games'
-import Quine from      './posts/Quine'
+import Games      from './posts/Games'
+import Quine      from './posts/Quine'
 
 export default function Blog(props) {
   const posts = [
-    'thoughts on moby dick',
-    'serfdom',
-    "ranking bach's cello suites",
-    'heather',
-    "'what algorithms want' is a bad book",
-    "don't trust everything you read",
-    "are games art?",
-    "the shortest quine in C"
+    'THOUGHTS ON MOBY DICK',
+    'SERFDOM',
+    "RANKING BACH'S CELLO SUITES",
+    'HEATHER',
+    "'WHAT ALGORITHMS WANT' IS A BAD BOOK",
+    "DON'T TRUST EVERYTHING YOU READ",
+    "ARE GAMES ART?",
+    "THE SHORTEST QUINE C"
   ];
 
   const dates = [
@@ -45,7 +45,7 @@ export default function Blog(props) {
     postList.push(makeTitle(i));
 
   const blogHome = <div>
-    <h2>Blog</h2>
+    <h2>BLOG</h2>
 
     <ul>{postList.reverse()}</ul>
   </div>;

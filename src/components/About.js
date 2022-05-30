@@ -1,10 +1,10 @@
 export default function About() {
   return <div>
-    <h2>About Me</h2>
+    <h2>ABOUT ME</h2>
 
     <p>I'm a 20 something American guy just trying to make sense of the world.</p>
 
-    <p>Favs:</p>
+    <p>FAVS:</p>
 
     <ul>
       <li>color: <span style={{color:'red'}}>red</span>!</li>
@@ -21,7 +21,7 @@ export default function About() {
       <li>book: The Once and Future King</li>
     </ul>
 
-    <p>Least Favs:</p>
+    <p>LEAST FAVS:</p>
 
     <ul>
       <li>color: <span style={{color: 'lime'}}>lime</span></li>
@@ -31,7 +31,7 @@ export default function About() {
       <li>composer: Stravisnsky</li>
     </ul>
 
-    <p>Loves:</p>
+    <p>LOVES:</p>
 
     <ul>
       <li>my cat</li>
