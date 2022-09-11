@@ -7,6 +7,7 @@ import Algorithms from './posts/Algorithms'
 import Choplifter from './posts/Choplifter'
 import Games      from './posts/Games'
 import Quine      from './posts/Quine'
+import Jealous    from './posts/Jealous'
 
 export default function Blog(props) {
   const posts = [
@@ -17,7 +18,8 @@ export default function Blog(props) {
     "'WHAT ALGORITHMS WANT' IS A BAD BOOK",
     "DON'T TRUST EVERYTHING YOU READ",
     "ARE GAMES ART?",
-    "THE SHORTEST QUINE C"
+    "THE SHORTEST QUINE C",
+    "ENGLISH HAS LITERALLY GOTTEN WORSE"
   ];
 
   const dates = [
@@ -28,7 +30,8 @@ export default function Blog(props) {
     '2020 09 06',
     '2021 02 13',
     '2021 06 13',
-    '2021 07 05'
+    '2021 07 05',
+    '2022 09 10'
   ];
 
   const makeTitle = number => <li>
@@ -59,6 +62,7 @@ export default function Blog(props) {
     props.currentPost === posts[5] ? <Choplifter /> :
     props.currentPost === posts[6] ? <Games />      :
     props.currentPost === posts[7] ? <Quine />      :
+    props.currentPost === posts[8] ? <Jealous />      :
     blogHome
     )
 }
