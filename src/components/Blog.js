@@ -8,18 +8,20 @@ import Choplifter from './posts/Choplifter'
 import Games      from './posts/Games'
 import Quine      from './posts/Quine'
 import Jealous    from './posts/Jealous'
+import Combo      from './posts/Combo'
 
 export default function Blog(props) {
   const posts = [
-    'THOUGHTS ON MOBY DICK',
-    'SERFDOM',
-    "RANKING BACH'S CELLO SUITES",
-    'HEATHER',
-    "'WHAT ALGORITHMS WANT' IS A BAD BOOK",
-    "DON'T TRUST EVERYTHING YOU READ",
-    "ARE GAMES ART?",
-    "THE SHORTEST QUINE C",
-    "ENGLISH HAS LITERALLY GOTTEN WORSE"
+    'Thoughts on Moby Dick',
+    'Serfdom',
+    "Ranking Bach's cello suites",
+    'Heather',
+    "'What Algorithms Want' is a bad book",
+    "Don't trust everything you read",
+    "Are games art?",
+    "The shortest quine in C",
+    "English has literally gotten worse",
+    "Jamaica Avenue's Many Combinations",
   ];
 
   const dates = [
@@ -31,7 +33,8 @@ export default function Blog(props) {
     '2021 02 13',
     '2021 06 13',
     '2021 07 05',
-    '2022 09 10'
+    '2022 09 10',
+    '2022 09 27',
   ];
 
   const makeTitle = number => <li>
@@ -39,7 +42,7 @@ export default function Blog(props) {
     <span
       onClick={e => props.handleClick('blog', posts[number])}
       className='link'>
-        {posts[number]}
+        {posts[number].toUpperCase()}
     </span>
   </li>
 
@@ -62,7 +65,8 @@ export default function Blog(props) {
     props.currentPost === posts[5] ? <Choplifter /> :
     props.currentPost === posts[6] ? <Games />      :
     props.currentPost === posts[7] ? <Quine />      :
-    props.currentPost === posts[8] ? <Jealous />      :
+    props.currentPost === posts[8] ? <Jealous />    :
+    props.currentPost === posts[9] ? <Combo />      :
     blogHome
     )
 }
