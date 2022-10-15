@@ -9,7 +9,7 @@ export default function Home() {
       <img src={SonyaPic} alt={"Cat"} />
       <aside>My cat Sonya</aside>
 
-      <p>I have <a href="https://evoniuk.github.io" target="blank">a more serious blog</a> where I post about more respectable topics, so if you wanna check that out please do, but here I plan on just rambling about whatever I want. I also have <a href="https://evoniuk.github.io/Photos/" target="blank">a page for photos I take</a>.</p>
+      <p>I have <a href="https://evoniuk.github.io" target="blank">a more serious blog</a> where I post about more respectable topics, so if you wanna check that out please do, but here I plan on just rambling about whatever I want.</p>
 
       <p>Also, I hope you enjoy the 90s VHS aesthetic I'm goin' for. The font is VCR OSD Mono, and the background is inspired by the icy caverns in Super Mario Bros 3. And the song at the top is '1' by HOME, from his album <cite>Resting State</cite>.</p>
   </div>
