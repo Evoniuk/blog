@@ -9,6 +9,7 @@ import Games      from './posts/Games'
 import Quine      from './posts/Quine'
 import Jealous    from './posts/Jealous'
 import Combo      from './posts/Combo'
+import Shinbashi  from './posts/Shinbashi'
 
 export default function Blog(props) {
   const posts = [
@@ -22,6 +23,7 @@ export default function Blog(props) {
     "The shortest quine in C",
     "English has literally gotten worse",
     "Jamaica Avenue's Many Combinations",
+    "A Google Maps Adventure",
   ];
 
   const dates = [
@@ -35,6 +37,7 @@ export default function Blog(props) {
     '2021 07 05',
     '2022 09 10',
     '2022 09 27',
+    '2022 11 06',
   ];
 
   const makeTitle = number => <li>
@@ -57,16 +60,17 @@ export default function Blog(props) {
   </div>;
 
   return (
-    props.currentPost === posts[0] ? <Moby />       :
-    props.currentPost === posts[1] ? <Serfdom />    :
-    props.currentPost === posts[2] ? <Cello />      :
-    props.currentPost === posts[3] ? <Heather />    :
-    props.currentPost === posts[4] ? <Algorithms /> :
-    props.currentPost === posts[5] ? <Choplifter /> :
-    props.currentPost === posts[6] ? <Games />      :
-    props.currentPost === posts[7] ? <Quine />      :
-    props.currentPost === posts[8] ? <Jealous />    :
-    props.currentPost === posts[9] ? <Combo />      :
+    props.currentPost === posts[0]  ? <Moby />       :
+    props.currentPost === posts[1]  ? <Serfdom />    :
+    props.currentPost === posts[2]  ? <Cello />      :
+    props.currentPost === posts[3]  ? <Heather />    :
+    props.currentPost === posts[4]  ? <Algorithms /> :
+    props.currentPost === posts[5]  ? <Choplifter /> :
+    props.currentPost === posts[6]  ? <Games />      :
+    props.currentPost === posts[7]  ? <Quine />      :
+    props.currentPost === posts[8]  ? <Jealous />    :
+    props.currentPost === posts[9]  ? <Combo />      :
+    props.currentPost === posts[10] ? <Shinbashi />  :
     blogHome
     )
 }

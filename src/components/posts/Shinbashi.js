@@ -1,0 +1,25 @@
+export default function Shinbashi() {
+  return <div>
+    <h2>A Google Maps Adventure</h2>
+
+    <p>I was on twitter and saw this picture <a target="_blank" rel="noreferrer" href="https://twitter.com/archillect/status/1587210623955488770">posted</a> by Archillect:</p>
+
+    <img src={"https://pbs.twimg.com/media/FgbnpqwXgAIJyyz?format=jpg&name=medium"} alt={"Shinbashi in snow"} />
+
+    <p>I wanted to know where this was, so I checked the comments, but could only find guesses. Some of these guesses were unbelievably incorrect. Despite the Japanese signs, people were throwing out guesses like New York, Quebec City, and even Cincinatti! One guess was Sapporo, which seemed a bit less obvious than Tokyo, so I assumed this person was familiar with the region and had a reason to guess Sapporo, so that's the first place I checked.</p>
+
+    <p>The first thing I googled was "Sapporo circular building", as the large building in the background looked circular, and I figured it would be best to start with looking for the biggest building. This search didn't turn up anything, but looking at pictures of Sapporo there's a very prominent circular building around the center of town, <a target="_blank" rel="noreferrer" href="https://goo.gl/maps/DeP21PTSQNx3wumu8">the Sapporo Prince Hotel</a>. At first this looked promising, but the surrounding area just didn't make sense given the picture, and the top of the building in particular didn't match up with the picture.</p>
+
+    <p>Hitting a dead end with Sapporo, I went back to the image and did a reverse image search. If I could find the original surely that would have some accompanying information. My search didn't turn up the original, but it did turn up a tweet from 2018, also from Archillect, in which they (he? she?) posted the same image, but this time with <a target="_blank" rel="noreferrer" href="https://twitter.com/archillinks/status/1066564661288554497">a response from Archillect Links</a>, which did provide the link to the original, <a target="_blank" rel="noreferrer" href="https://akihiro-furukawa.tumblr.com/post/173726542794/帰り道96">the tumblr of Japanese photographer Akihiro Furukawa</a>. Under this photo was a set of hashtags, one saying it was a photograph (very helpful), another saying there was snow, one describing the camera, another the lens, but one hashtag gave me what I was looking for: #Shinbashi.</p>
+
+    <p>Shinbashi, it turned out, is a small neighborhood in the center of Tokyo. Now I was getting somewhere. I started combing through, block by block, first in satellite view, then in map view, but I could not find the circular building, or any of the other buildings. There is <a target="_blank" rel="noreferrer" href="https://goo.gl/maps/bCs3KjmsqP1Wx6o9A">a semi-circular parking garage</a> that got my hopes up, but those hopes were quickly dashed when I looked closer at the building.</p>
+
+    <p>I then expanded my search. I thought that maybe the photographer was merely around Shinbashi. Maybe he forgot that he had left the strict limits of the neighborhood. This turned out to be incorrect in the end, but thinking this way did help, as I found my circular building outside Shinbashi.</p>
+
+    <p>Looking outside of Shinbashi, I saw <a target="_blank" rel="noreferrer" href="https://goo.gl/maps/pLauBDtSXB4rByxC8">this rather large circular building</a>. It looked mostly right, but the top of it had more of a curve that what I could see in the picture. But all the pictures of the building I could find were in the day, so it made sense that it would look different. I wasn't sure I had the correct building until I stumbled across <a target="_blank" rel="noreferrer" href="https://www.google.com/maps/@35.6646086,139.7493103,3a,75y,196.32h,117.63t/data=!3m8!1e1!3m6!1sAF1QipOpudCcCdUVM_jOB0WeVpkAoKpsMa6nBlpKSV1T!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOpudCcCdUVM_jOB0WeVpkAoKpsMa6nBlpKSV1T%3Dw203-h100-k-no-pi-0-ya58.5233-ro-0-fo100!7i7296!8i3648">a streetview image at night</a>, a rare thing to find. These images showed the exact same ring of lights at the top of the building as there were in the picture. This had to be the building.</p>
+
+    <p>From there it was a matter of trial and error to find the right vantage point. I was looking for the small building in the foreground of the photo, trying to find the pentagonal shape at a narrow intersection, down the street from an alley. It was the last of these that was tripping me up, as the building at the left of the alley in the photo was actually demolished some time in the past year or so.</p>
+
+    <p>But eventually I finally found it. At <a target="_blank" rel="noreferrer" href="https://www.google.com/maps/@35.6618534,139.7527101,3a,75y,300.22h,95.96t/data=!3m7!1e1!3m5!1sfZtjSkpC2A8FVPy-ObmJ6Q!2e0!5s20180201T000000!7i16384!8i8192">this intersection</a> everything lines up: the pentagonal building, the slanted roof of the building adjacent to it, the bushes of the building across the street, and, as long as you're in the 2018 street view or earlier, the alley between two buildings, one with a green and white striped awning.</p>
+  </div>
+}
